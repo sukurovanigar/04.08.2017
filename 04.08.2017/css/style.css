@@ -1,0 +1,116 @@
+
+
+body{
+    background-image: url(../img/sky-header-best1.png);
+    background-repeat: no-repeat;
+}
+.Sun_and_cloud{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Sun_and_cloud .Sun img{
+position: absolute;
+width: 250px;
+top:0px;
+animation: sunDown 20s linear infinite;
+}
+.Sun_and_cloud .Bulud img{
+width: 350px;
+position:relative;
+top: 50px;
+animation: move 8s linear infinite;
+}
+.damci{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background-color: #5082aa;
+    border-radius: 20px; 
+    bottom: 0;
+    
+    top: 240px;
+    left: 500px;
+    opacity: 0;
+    
+}
+.dam{
+    top: 230px;
+    left: 20px;
+    animation: drop 500ms linear 400ms infinite ;
+}
+.dam1{
+    top: 310px;
+    left: 70px;
+    animation: drop 500ms linear 200ms infinite ;
+}
+.dam3{
+    top: 240px;
+    left: 110px;
+    animation: drop 500ms linear 100ms infinite ;
+}
+.dam4{
+    top: 230px;
+    left: 120px;
+    animation: drop 500ms linear 400ms infinite ;
+}
+.dam5{
+    top: 240px;
+    left: 140px;
+    animation: drop 500ms linear 150ms infinite ;
+}
+.dam6{
+    top: 210px;
+    left: 170px;
+    animation: drop 500ms linear 250ms infinite ;
+}
+.dam7{
+    top: 220px;
+    left: 190px;
+    animation: drop 500ms linear 140ms infinite ;
+}
+
+@keyframes drop {
+    0%{
+        transform: translateY(5px);
+        
+    }
+    100%{
+         transform: translateY(130px);
+    }
+    
+    0%{
+        opacity: 1;
+    }
+    5%,50%{
+        opacity: 1;
+        
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+@keyframes sunDown {
+    0%{
+        transform: rotate(0deg); 
+    }
+    50%{
+         transform: rotate(180deg);
+    }
+    100%{
+         transform: rotate(360deg);
+    }
+    
+@keyframes move {
+    0%{
+        transform: translate(0px); 
+    }
+    50%{
+         transform: translate(50px);
+    }
+    100%{
+         transform: translate(0);
+    }
+}
