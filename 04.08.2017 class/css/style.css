@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.row {
+    /*margin-top: 25px;*/
+}
+
+.row::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.col-1 {
+    float: left;
+    width: 8.33%;
+}
+
+.col-2 {
+    float: left;
+    width: 16.66%;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+}
+
+.col-4 {
+    float: left;
+    width: 33.33%;
+}
+
+.col-5 {
+    float: left;
+    width: 41.66%;
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.col-7 {
+    float: left;
+    width: 58.33%;
+}
+
+.col-8 {
+    float: left;
+    width: 66.66%;
+}
+
+.col-9 {
+    float: left;
+    width: 75%;
+}
+
+.col-10 {
+    float: left;
+    width: 83.33%;
+}
+
+.col-11 {
+    float: left;
+    width: 91.66%;
+}
+
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+.color1 {
+    height: 150px;
+    background-color: gray;
+}
+
+.color2 {
+    height: 150px;
+    background-color: black;
+}
+
+.color3 {
+    height: 150px;
+    background-color: yellow;
+}
+
+.color4 {
+    height: 150px;
+    background-color: green;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+}
+body{
+    width: 970px;
+    height: 1000px;
+}
+.container{
+    background-image: url("../img/sekil.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 120px 0px 100px;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    
+}
+section{
+    overflow: hidden;
+    position: relative;
+    padding: 80px 0px 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
